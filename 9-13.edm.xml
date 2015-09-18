@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+<?DataServices DB_Major_Version=09;DB_Minor_Version=05;DB_Build_Version=195;DB_Version=EDM 5000.1.11.0 (09.05.09.195);exportType=Report;expandPoint=DM_EVENT;?>
+
+<export>
+<SyncInfo>Protocol=File EXPORT;SenderID=;SenderPwd=;SenderHost=null;ReceiverID=;SubmitDate=;JobDesc=DM_EVENT;Tx_ID=null;DBUserID=;UpdateReference=No;</SyncInfo>
+<TOPLEVEL>
+</TOPLEVEL>
+<MD_SITE_TIGHT_GROUP tight_group_id="T0001" tight_group_name="UNRESTRICTED" description="Unrestricted"/>
+<CD_POLICY customer_name="Addax" policy_id="c9uUIAUcTS" reporting_standard="1" reporting_time="{ts '2015-09-18 00:00:00'}" create_date="{ts '2015-09-18 09:19:13'}" create_user_id="Administrator(edm)" create_app_id="OpenWells"/>
+<CD_SURVEY_TOOL policy_id="c9uUIAUcTS" survey_tool_id="OLMgV" tool_name="gyroscopic north seeking" description="DLS" create_date="{ts '2015-09-18 09:19:13'}" create_user_id="Administrator(edm)" create_app_id="OpenWells"/>
+<CD_SURVEY_TOOL policy_id="c9uUIAUcTS" survey_tool_id="iTQrJ" tool_name="gyroscopic MWD" description="DLS" create_date="{ts '2015-09-18 09:19:13'}" create_user_id="Administrator(edm)" create_app_id="OpenWells"/>
+<CD_SURVEY_TOOL policy_id="c9uUIAUcTS" survey_tool_id="xvvhE" tool_name="magnetic MWD" description="DLS" create_date="{ts '2015-09-18 09:19:13'}" create_user_id="Administrator(edm)" create_app_id="OpenWells"/>
+<CD_WELLBORE_TYPE wellbore_type_name="initial" policy_id="c9uUIAUcTS" wellbore_type_id="BMjiy"/>
+<CD_WELLBORE_TYPE wellbore_type_name="sidetrack" policy_id="c9uUIAUcTS" wellbore_type_id="HUddD"/>
+<CD_PROJECT project_id="ehAAkXByB7" policy_id="c9uUIAUcTS" project_name="Addax Cameroon" local_coord_origin="0" system_datum_desc="Mean Sea Level" create_date="{ts '2015-09-18 09:19:13'}" create_user_id="Administrator(edm)" create_app_id="OpenWells" tight_group_id="T0001"/>
+<CD_SITE site_id="D0Fqf00000" project_id="ehAAkXByB7" tight_group_id="T0001" site_name="Iroko" block_name="Iroko" loc_country="Addax" north_type="0" default_rig_elevation="0.0" create_date="{ts '2015-09-18 09:19:13'}" create_user_id="Administrator(edm)" create_app_id="OpenWells"/>
+<CD_WELL_ALL well_id="oSVIg00000" site_id="D0Fqf00000" tight_group_id="T0001" coord_type="3" geo_latitude="-4.000000" geo_longitude="8.000000" is_offshore="Y" loc_country="Cameroon" well_common_name="Padouk-3L" slot_ew="0.0" slot_ns="0.0" well_legal_name="Padouk-3L" water_depth="144.356956" well_uwi="Padouk-3L" create_date="{ts '2015-09-18 09:19:13'}" create_user_id="Administrator(edm)" create_app_id="OpenWells" spud_date="{ts '2014-09-13 00:00:00'}"/>
+<CD_WELL well_id="oSVIg00000" site_id="D0Fqf00000" tight_group_id="T0001" coord_type="3" geo_latitude="-4.000000" geo_longitude="8.000000" loc_country="Addax" field_name="Padouk" well_common_name="Padouk-3L" slot_ew="0.0" slot_ns="0.0" well_legal_name="Padouk-3L" is_offshore="Y" water_depth="144.356956" well_uwi="Padouk-3L" create_date="{ts '2015-09-18 09:19:13'}" create_user_id="Administrator(edm)" create_app_id="OpenWells"/>
+<CD_DATUM datum_id="OVdph" well_id="oSVIg00000" is_default="Y" datum_elevation="124.671916" datum_name="RT" datum_description="38.00m RT" sequence_no="0" create_date="{ts '2015-09-18 09:19:13'}" create_user_id="Administrator(edm)" create_app_id="OpenWells"/>
+<CD_DATUM datum_id="3rLjx" well_id="oSVIg00000" is_default="N" datum_elevation="125.032809" datum_name="RT" datum_description="38.11m RT" sequence_no="1" create_date="{ts '2015-09-18 09:19:13'}" create_user_id="Administrator(edm)" create_app_id="OpenWells"/>
+<CD_DATUM datum_id="bSACy" well_id="oSVIg00000" is_default="N" datum_elevation="125.032809" datum_name="RT" datum_description="38.11m RT" sequence_no="2" create_date="{ts '2015-09-18 09:19:13'}" create_user_id="Administrator(edm)" create_app_id="OpenWells"/>
+<CD_WELLBORE well_id="oSVIg00000" wellbore_id="nNtCi00000" wellbore_no="00" ko_md="385.958006" wellbore_type_policy_id="c9uUIAUcTS" wellbore_type_id="BMjiy" well_legal_name="Padouk-3L" wellbore_name="Padouk-3L" wellbore_uwi="207900001439"/>
+<CD_WELLBORE well_id="oSVIg00000" wellbore_id="0V4Nz30000" wellbore_no="01" wellbore_type_policy_id="c9uUIAUcTS" wellbore_type_id="HUddD" parent_wellbore_id="nNtCi00000" well_legal_name="Padouk-3L" wellbore_name="Padouk-3L-ST1" wellbore_uwi="207900001439"/>
+<DM_EVENT event_objective_3="development" date_ops_start="{ts '2015-09-09 00:00:00'}" well_id="oSVIg00000" event_id="Rm88j" phase="ACTUAL" event_code="ODR" event_type="ORIG DRILLING" is_readonly="N" reporting_standard="1" reporting_time="{ts '2015-09-18 09:11:49'}" create_date="{ts '2015-09-18 09:19:13'}" create_user_id="Administrator(edm)" create_app_id="OpenWells"/>
+<DM_DAILY well_id="oSVIg00000" event_id="Rm88j" daily_id="BKJtf" wellbore_id="0V4Nz30000" report_journal_id="4Ebuf20000" date_report="{ts '2014-09-13 00:00:00'}"/>
+<DM_REPORT_JOURNAL well_id="oSVIg00000" event_id="Rm88j" wellbore_id="0V4Nz30000" report_journal_id="4Ebuf20000" date_report="{ts '2014-09-13 00:00:00'}" report_no="0" entity_type="Daily Operations" event_code="ODR" report_alias="DDR" create_date="{ts '2015-09-18 09:19:13'}" create_user_id="Administrator(edm)" create_app_id="OpenWells" is_validated="N"/>
+<LINKTABLE>
+<DM_AFE_EVENT_LINK event_id="Rm88j" well_id="oSVIg00000" afe_id="oSVIg00000"/>
+</LINKTABLE>
+<BINARY_DATA data_encoding="base64"/>
+</export>
